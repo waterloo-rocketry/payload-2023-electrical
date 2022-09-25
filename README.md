@@ -1,7 +1,5 @@
 WELCOME TO PAYLOAD: "NOT QUITE DEPLOYABLE"
 
-Here are all the Payload Project Proposals starting Fall 2023!
-https://drive.google.com/drive/folders/1mYM4XVWNkcDOj4MidgKZG7yYtJaxXxV3?usp=sharing
 
 
 Here is the folder in the google drive where most of our research happens (if you don't have access, and need it, ask!)
@@ -14,3 +12,8 @@ If you can't find the project you're looking for, make sure to check the branche
 
 CONFLUENCE
 https://uwaterloo.atlassian.net/wiki/spaces/ROCKETRY/pages/42574873580/Payload
+
+**How to Start Editing Schematics**
+- Clone the "canhw" repo from https://github.com/waterloo-rocketry/canhw
+- Enter canhw and make sure you are on the most up to date version of master branch
+- Make sure that both the payload-2023-electrical and canhw repos are in the same parent directory! KiCAD will not be able to find our custom libraries otherwise
