@@ -323,11 +323,15 @@
     ],
     [
       "6da90ef0-c465-4ff3-9b37-6e85282e96ed",
-      "Umbilical & Battery Power"
+      "Power Supplies & Regulators"
     ],
     [
       "6e3b0b39-ae79-433b-961a-4cecb7d81a21",
       "MCU and CAN Controllers"
+    ],
+    [
+      "4098056b-d5b5-4eee-8d93-2432d38df82c",
+      "Battery Charging"
     ]
   ],
   "text_variables": {}
