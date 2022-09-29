@@ -1035,6 +1035,12 @@
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/cde26ca9-c5a8-4e4e-8013-df75eae8b0b3"
       (reference "L1") (unit 1) (value "30uH") (footprint "")
     )
+    (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/a02ed092-3dba-43cb-9c0d-6d5ad0837b9f"
+      (reference "Q?") (unit 1) (value "PMOS_SDG") (footprint "")
+    )
+    (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/fe6a9ef0-e28e-4a6d-a353-022bb58d6298"
+      (reference "Q?") (unit 1) (value "NMOS_SDG") (footprint "")
+    )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/400c1780-111d-4b22-be29-a63121ef79f6"
       (reference "R1") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
