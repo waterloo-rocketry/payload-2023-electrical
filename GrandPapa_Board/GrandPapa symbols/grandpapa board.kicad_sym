@@ -1,4 +1,51 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "+4.5V" (power) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR?" (id 0) (at 0 3.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+4.5V" (id 1) (at -0.635 1.27 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 6.35 1.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 6.35 1.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "+4.5V_0_1"
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 -2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0.635 -1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy -0.635 -1.27)
+          (xy 0 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "+4.5V_1_1"
+      (pin power_in line (at 0 -2.54 90) (length 2.54) hide
+        (name "+4.5V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
   (symbol "FPF2124" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 10.16 0)
       (effects (font (size 1.27 1.27)))

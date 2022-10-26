@@ -328,6 +328,10 @@
     [
       "6e3b0b39-ae79-433b-961a-4cecb7d81a21",
       "MCU and CAN Controllers"
+    ],
+    [
+      "9000e807-73a6-4445-a3d9-68a08e981f82",
+      "Battery Charging"
     ]
   ],
   "text_variables": {}
