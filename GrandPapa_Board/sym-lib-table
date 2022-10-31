@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name "CANHW")(type "KiCad")(uri "${KIPRJMOD}/../../canhw/lib/canhw.kicad_sym")(options "")(descr ""))
+  (lib (name "CANHW")(type "Legacy")(uri "${KIPRJMOD}/../../canhw/lib/canhw.lib")(options "")(descr ""))
   (lib (name "CLEAN_MOS")(type "Legacy")(uri "${KIPRJMOD}/../../canhw/lib/clean_mos.lib")(options "")(descr ""))
   (lib (name "FLIGHT_INSTR")(type "Legacy")(uri "${KIPRJMOD}/../../canhw/lib/flight_instr.lib")(options "")(descr ""))
   (lib (name "grandpapa board")(type "KiCad")(uri "${KIPRJMOD}/GrandPapa symbols/grandpapa board.kicad_sym")(options "")(descr ""))
