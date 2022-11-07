@@ -416,47 +416,8 @@
         )
       )
     )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#FLG" (id 0) (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "PWR_FLAG" (id 1) (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Special symbol for telling ERC where power comes from" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PWR_FLAG_0_0"
-        (pin power_out line (at 0 0 90) (length 0)
-          (name "pwr" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "PWR_FLAG_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy -1.016 1.905)
-            (xy 0 2.54)
-            (xy 1.016 1.905)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-    )
   )
+
 
   (junction (at 43.18 179.705) (diameter 0) (color 0 0 0 0)
     (uuid 0ab836f5-0ff6-49c4-ac00-c159775a4567)
@@ -582,11 +543,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3fcc2c66-548f-4f47-9f63-f486baba105e)
   )
-  (polyline (pts (xy 20.955 33.655) (xy 22.225 33.655))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 47848b6b-82c6-478a-95ac-d383102a8bd2)
-  )
-
   (wire (pts (xy 130.81 52.705) (xy 144.78 52.705))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 47db41f1-b218-4c0b-b49e-455e7f36bccf)
@@ -815,15 +771,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fb67919f-c8a1-427b-b439-5bd9419ffb62)
   )
-  (wire (pts (xy 52.705 174.625) (xy 52.705 177.8))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid fef3880f-6ef6-4f11-8ae0-3d62b2e64807)
-  )
 
-  (text "Harwin connector" (at 31.115 38.735 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 04c04b36-23ef-4122-a36a-a95d5b961cb1)
-  )
   (text "Logger Board" (at 248.285 40.64 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 07360914-21a3-4349-ae81-0f9233131cec)
@@ -843,11 +791,6 @@
   (text "Minisensor Board" (at 254.635 58.42 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 80b09749-5c7f-4b0c-a4ff-6c2a01d60268)
-  )
-  (text "Minisensor is a Harwin connector, all others are dupont"
-    (at 214.63 31.115 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9a51494a-233c-4cd1-aded-08821e7ebaa3)
   )
   (text "To Rocket CAN bus" (at 19.685 29.845 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -931,7 +874,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2746e30c-cf47-4b9c-9f99-0aa497348790)
     (property "Reference" "J11" (id 0) (at 31.115 166.37 0))
-    (property "Value" "Conn_01x04_Male" (id 1) (at 31.115 168.91 0))
+    (property "Value" "Dupont 01x04_Male" (id 1) (at 31.115 168.91 0))
     (property "Footprint" "" (id 2) (at 30.48 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -976,22 +919,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 741d3e04-54ac-4c4c-bde0-9c924a670f8d))
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 52.705 174.625 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 53869ec9-e99d-427a-9917-c43d4c72a007)
-    (property "Reference" "#FLG0106" (id 0) (at 52.705 172.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (id 1) (at 52.705 170.815 0))
-    (property "Footprint" "" (id 2) (at 52.705 174.625 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 52.705 174.625 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid aec8e085-2247-478b-b027-3ceca79c0d7c))
   )
 
   (symbol (lib_id "power:+12V") (at 55.245 39.37 0) (unit 1)
@@ -1117,8 +1044,8 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 42.545 46.355 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9b3c8cdd-eebb-48dc-9103-b9751ef4664e)
-    (property "Reference" "J2" (id 0) (at 38.735 33.655 0))
-    (property "Value" "Conn_02x06" (id 1) (at 38.735 36.195 0))
+    (property "Reference" "J2" (id 0) (at 42.545 34.925 0))
+    (property "Value" "HARWIN CONN" (id 1) (at 42.545 37.465 0))
     (property "Footprint" "Payload2020_custom:connector_Harwin_M80-5000642" (id 2) (at 42.545 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1138,7 +1065,7 @@
     (property "Reference" "J5" (id 0) (at 247.65 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x06_Female" (id 1) (at 247.65 44.45 0)
+    (property "Value" "Dupont 01x06_Female" (id 1) (at 247.65 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 247.015 41.91 0)
@@ -1192,10 +1119,10 @@
   (symbol (lib_id "Connector:Conn_01x06_Female") (at 247.015 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bc115b77-66ba-4ad5-9769-e8d4d5e7e0d1)
-    (property "Reference" "J3" (id 0) (at 247.777 88.8999 0)
+    (property "Reference" "J3" (id 0) (at 248.92 88.8999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x06_Female" (id 1) (at 247.777 91.4399 0)
+    (property "Value" "Dupont 01x06_Female" (id 1) (at 248.92 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 247.015 88.9 0)
@@ -1260,22 +1187,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c214d5a7-41d2-4cfa-866b-c8998780a295))
-  )
-
-  (symbol (lib_id "power:GND") (at 52.705 177.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid da6ef631-4e5d-4ee3-9b50-a387d4da8580)
-    (property "Reference" "#PWR0104" (id 0) (at 52.705 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 52.705 182.88 0))
-    (property "Footprint" "" (id 2) (at 52.705 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 52.705 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6aca6e20-e0cb-487c-8acf-0d9545a979e0))
   )
 
   (sheet (at 144.78 34.925) (size 35.56 44.45) (fields_autoplaced)
@@ -1406,9 +1317,6 @@
   )
 
   (symbol_instances
-    (path "/53869ec9-e99d-427a-9917-c43d4c72a007"
-      (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/2ba6dc01-36b6-4b3c-b0f8-0bb9aef3fef2"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
@@ -1456,12 +1364,6 @@
     )
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/3fd54150-e328-4d1e-a0d4-3e3a55830d1b"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/9000e807-73a6-4445-a3d9-68a08e981f82/ca810100-154d-4044-b8d8-4d89c367c1ec"
-      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/9000e807-73a6-4445-a3d9-68a08e981f82/2251bd0e-fd56-4a9a-b767-14112c43126a"
-      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/28c591b8-b637-4324-91ca-7c9a9e81c22c"
       (reference "#PWR019") (unit 1) (value "GND") (footprint "")
@@ -1585,9 +1487,6 @@
     )
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/f82fda74-0c1e-4bd1-a464-f5ed2b9185e7"
       (reference "#PWR059") (unit 1) (value "+4.5V") (footprint "")
-    )
-    (path "/da6ef631-4e5d-4ee3-9b50-a387d4da8580"
-      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/650f6504-e891-4404-a660-ac0fb77c96a7"
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
@@ -1716,22 +1615,22 @@
       (reference "J1") (unit 1) (value "3.7V LiPo Single Cell") (footprint "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal")
     )
     (path "/9b3c8cdd-eebb-48dc-9103-b9751ef4664e"
-      (reference "J2") (unit 1) (value "Conn_02x06") (footprint "Payload2020_custom:connector_Harwin_M80-5000642")
+      (reference "J2") (unit 1) (value "HARWIN CONN") (footprint "Payload2020_custom:connector_Harwin_M80-5000642")
     )
     (path "/bc115b77-66ba-4ad5-9769-e8d4d5e7e0d1"
-      (reference "J3") (unit 1) (value "Conn_01x06_Female") (footprint "")
+      (reference "J3") (unit 1) (value "Dupont 01x06_Female") (footprint "")
     )
     (path "/9148568f-147d-473b-b021-8ad960db1440"
       (reference "J4") (unit 1) (value "HARWIN CONN") (footprint "Payload2020_custom:connector_Harwin_M80-5000642")
     )
     (path "/a8426bc2-c0da-425a-9644-1cdd24d3376a"
-      (reference "J5") (unit 1) (value "Conn_01x06_Female") (footprint "")
+      (reference "J5") (unit 1) (value "Dupont 01x06_Female") (footprint "")
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/9d46a4f7-4238-467d-b81e-da5f8cd8a079"
       (reference "J6") (unit 1) (value "Conn_02x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/2746e30c-cf47-4b9c-9f99-0aa497348790"
-      (reference "J11") (unit 1) (value "Conn_01x04_Male") (footprint "")
+      (reference "J11") (unit 1) (value "Dupont 01x04_Male") (footprint "")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/1e473284-1de6-436e-88de-2bf07ffdb177"
       (reference "L1") (unit 1) (value "30uH") (footprint "")
@@ -1776,13 +1675,13 @@
       (reference "R12") (unit 1) (value "100R") (footprint "")
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/74b45ee6-4bf2-4700-afc3-7d9894c90eda"
-      (reference "R13") (unit 1) (value "150R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R13") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/170577a4-e6dd-49f3-85cf-7acba0e88319"
-      (reference "R14") (unit 1) (value "150R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R14") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/78137e85-a72e-4188-b55b-f4d05137ceb4"
-      (reference "R15") (unit 1) (value "150R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R15") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/94370790-684a-44bf-9cd0-8069d32cd562"
       (reference "R16") (unit 1) (value "20kR") (footprint "")
@@ -1814,6 +1713,9 @@
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/4981e7bf-2445-4948-9a5b-8066c1a80d30"
       (reference "R25") (unit 1) (value "10kR") (footprint "")
     )
+    (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/16d5296f-40f5-446f-afce-ce68384e33de"
+      (reference "R26") (unit 1) (value "10kR") (footprint "")
+    )
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/d86a5dda-66ea-4311-a7d2-5e2cf0558120"
       (reference "TH1") (unit 1) (value "10k") (footprint "")
     )
@@ -1834,6 +1736,9 @@
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/77ff2a04-f60f-44af-b4d3-68b4a9ffab74"
       (reference "TP6") (unit 1) (value "TestPoint") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/e82afff4-e0be-412e-83af-533b7def711c"
+      (reference "TP7") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/52902cd6-ef99-4115-a87c-d44499f2bdfd"
       (reference "U1") (unit 1) (value "LT1576IS8-5#TRPBF") (footprint "")
