@@ -1551,13 +1551,16 @@
       (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/3ec9b83d-f23f-4d98-aef3-dc48ef2219e5"
-      (reference "C?") (unit 1) (value "10uF") (footprint "")
+      (reference "C?") (unit 1) (value "5.7nF") (footprint "")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/53ba3d92-1a41-4a88-9613-15e75aad5f25"
       (reference "C?") (unit 1) (value "10uF") (footprint "")
     )
+    (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/b3da7018-3e66-420c-a4d5-b21467adffcc"
+      (reference "C?") (unit 1) (value "25pF") (footprint "")
+    )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/f025c3d0-fefc-4a53-bad3-1950c230b8f2"
-      (reference "C?") (unit 1) (value "?") (footprint "")
+      (reference "C?") (unit 1) (value "44 uF") (footprint "")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/f2dcb8e6-9246-4633-9595-5fe7017776d8"
       (reference "C?") (unit 1) (value "0.1uF") (footprint "")
@@ -1635,7 +1638,7 @@
       (reference "L2") (unit 1) (value "2uH") (footprint "")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/85196087-a1a1-4422-a69b-bfd593c299ae"
-      (reference "L?") (unit 1) (value "L") (footprint "")
+      (reference "L?") (unit 1) (value "11.37uH") (footprint "")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/6de840b9-c366-479d-9fcf-8cc3aea8869b"
       (reference "R1") (unit 1) (value "20mR") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
@@ -1716,7 +1719,7 @@
       (reference "R?") (unit 1) (value "70kR") (footprint "")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/db578f5f-0f54-47d2-8218-1ad35046ded6"
-      (reference "R?") (unit 1) (value "20kR") (footprint "")
+      (reference "R?") (unit 1) (value "11kR") (footprint "")
     )
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/d86a5dda-66ea-4311-a7d2-5e2cf0558120"
       (reference "TH1") (unit 1) (value "10k") (footprint "")
