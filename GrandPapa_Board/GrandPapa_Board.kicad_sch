@@ -795,11 +795,6 @@
     (uuid fc6b846c-907b-4d63-a83d-239c2d0a92b1)
   )
 
-  (text "Max power draw on \nMCU is 170 mA\n@ 3.3V, +85°C\nsee pg 684 of datasheet\nMax power draw on ATA6561 \nCAN transciever is 70 mA"
-    (at 248.92 111.76 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 070ec769-574d-4a22-aad9-561a0215c4f8)
-  )
   (text "Logger Board" (at 248.285 31.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 07360914-21a3-4349-ae81-0f9233131cec)
@@ -831,10 +826,6 @@
   (text "GND pins for testing" (at 20.955 165.1 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid b86b7fc7-b43b-403f-9674-ca880af9ea34)
-  )
-  (text "Max Iout 300 mA\n" (at 248.92 114.3 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
-    (uuid d819d500-6ab5-4737-9538-802b74afe259)
   )
 
   (label "CANH_PAYLOAD" (at 241.935 35.56 180)
