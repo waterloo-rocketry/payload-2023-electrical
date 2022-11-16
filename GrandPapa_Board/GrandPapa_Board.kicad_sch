@@ -418,7 +418,6 @@
     )
   )
 
-
   (junction (at 43.18 179.705) (diameter 0) (color 0 0 0 0)
     (uuid 0ab836f5-0ff6-49c4-ac00-c159775a4567)
   )
@@ -1564,6 +1563,9 @@
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/09d7b34d-3fe1-4400-a85c-570792607d55"
       (reference "#PWR056") (unit 1) (value "GND") (footprint "")
     )
+    (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/f397cdf8-4cf4-4029-8f2c-096d9f14f85b"
+      (reference "#PWR057") (unit 1) (value "GND") (footprint "")
+    )
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/f82fda74-0c1e-4bd1-a464-f5ed2b9185e7"
       (reference "#PWR059") (unit 1) (value "+4.5V") (footprint "")
     )
@@ -1803,6 +1805,9 @@
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/16d5296f-40f5-446f-afce-ce68384e33de"
       (reference "R26") (unit 1) (value "10kR") (footprint "")
+    )
+    (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/a4dbde3b-7159-4f1a-8883-300fc4fc0b48"
+      (reference "R27") (unit 1) (value "15k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/d86a5dda-66ea-4311-a7d2-5e2cf0558120"
       (reference "TH1") (unit 1) (value "10k") (footprint "")
