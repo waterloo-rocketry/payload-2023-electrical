@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name "CANHW")(type "KiCad")(uri "${KIPRJMOD}/../../canhw/lib/canhw_footprints.pretty")(options "")(descr ""))
+  (lib (name "PapaOld")(type "KiCad")(uri "${KIPRJMOD}/Payload2020_custom.pretty")(options "")(descr ""))
+  (lib (name "GrandPapa")(type "KiCad")(uri "${KIPRJMOD}/GrandPapa.pretty")(options "")(descr ""))
 )
