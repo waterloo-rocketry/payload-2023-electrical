@@ -976,8 +976,8 @@
     (in_bom yes) (on_board yes)
     (uuid 426d6114-d3b8-47a3-9389-3c2fec82ed9d)
     (property "Reference" "J7" (id 0) (at 247.015 93.345 0))
-    (property "Value" "HARWIN CONN" (id 1) (at 247.015 95.885 0))
-    (property "Footprint" "Payload2020_custom:connector_Harwin_M80-5000642" (id 2) (at 247.015 103.505 0)
+    (property "Value" "HARWIN_KALMAN" (id 1) (at 247.015 95.885 0))
+    (property "Footprint" "PapaOld:connector_Harwin_M80-5000642" (id 2) (at 247.015 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 247.015 103.505 0)
@@ -1096,8 +1096,8 @@
     (in_bom yes) (on_board yes)
     (uuid 9148568f-147d-473b-b021-8ad960db1440)
     (property "Reference" "J4" (id 0) (at 247.015 46.99 0))
-    (property "Value" "HARWIN CONN" (id 1) (at 247.015 49.53 0))
-    (property "Footprint" "Payload2020_custom:connector_Harwin_M80-5000642" (id 2) (at 247.015 57.15 0)
+    (property "Value" "HARWIN_MINISENSOR" (id 1) (at 247.015 49.53 0))
+    (property "Footprint" "PapaOld:connector_Harwin_M80-5000642" (id 2) (at 247.015 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 247.015 57.15 0)
@@ -1114,8 +1114,8 @@
     (in_bom yes) (on_board yes)
     (uuid 9b3c8cdd-eebb-48dc-9103-b9751ef4664e)
     (property "Reference" "J2" (id 0) (at 42.545 34.925 0))
-    (property "Value" "HARWIN CONN" (id 1) (at 42.545 37.465 0))
-    (property "Footprint" "Payload2020_custom:connector_Harwin_M80-5000642" (id 2) (at 42.545 46.355 0)
+    (property "Value" "HARWIN_ROCKET" (id 1) (at 42.545 37.465 0))
+    (property "Footprint" "PapaOld:connector_Harwin_M80-5000642" (id 2) (at 42.545 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 42.545 46.355 0)
@@ -1563,14 +1563,14 @@
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/8910bc7b-4b75-4173-bde3-9105887a77b2"
       (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/fe05a526-136d-4cf2-9827-793ff06e3cc8"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/650f6504-e891-4404-a660-ac0fb77c96a7"
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/8567d9a3-472c-4677-bd9c-79ba8d999b20"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/fe05a526-136d-4cf2-9827-793ff06e3cc8"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/53ba3d92-1a41-4a88-9613-15e75aad5f25"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -1696,13 +1696,13 @@
       (reference "J1") (unit 1) (value "3.7V LiPo Single Cell") (footprint "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal")
     )
     (path "/9b3c8cdd-eebb-48dc-9103-b9751ef4664e"
-      (reference "J2") (unit 1) (value "HARWIN CONN") (footprint "Payload2020_custom:connector_Harwin_M80-5000642")
+      (reference "J2") (unit 1) (value "HARWIN_ROCKET") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
     (path "/bc115b77-66ba-4ad5-9769-e8d4d5e7e0d1"
       (reference "J3") (unit 1) (value "Dupont 02x03_Female") (footprint "PapaOld:PinHeader_2x03_P2.00mm_Vertical_MINISENSOR_Harwin_Spacing")
     )
     (path "/9148568f-147d-473b-b021-8ad960db1440"
-      (reference "J4") (unit 1) (value "HARWIN CONN") (footprint "Payload2020_custom:connector_Harwin_M80-5000642")
+      (reference "J4") (unit 1) (value "HARWIN_MINISENSOR") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
     (path "/a8426bc2-c0da-425a-9644-1cdd24d3376a"
       (reference "J5") (unit 1) (value "Dupont 01x06_Female") (footprint "PapaOld:PinHeader_2x03_P2.00mm_Vertical_MINISENSOR_Harwin_Spacing")
@@ -1711,7 +1711,7 @@
       (reference "J6") (unit 1) (value "Conn_02x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/426d6114-d3b8-47a3-9389-3c2fec82ed9d"
-      (reference "J7") (unit 1) (value "HARWIN CONN") (footprint "Payload2020_custom:connector_Harwin_M80-5000642")
+      (reference "J7") (unit 1) (value "HARWIN_KALMAN") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
     (path "/2746e30c-cf47-4b9c-9f99-0aa497348790"
       (reference "J11") (unit 1) (value "Dupont 01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
@@ -1744,7 +1744,7 @@
       (reference "R7") (unit 1) (value "500R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/dd7fe674-7ec5-4f4e-bae0-71ca9493043e"
-      (reference "R8") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R8") (unit 1) (value "10kR") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/cdf659c0-d404-4008-8040-a75e802f2f5e"
       (reference "R9") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -1801,7 +1801,7 @@
       (reference "R26") (unit 1) (value "10kR") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/a4dbde3b-7159-4f1a-8883-300fc4fc0b48"
-      (reference "R27") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R27") (unit 1) (value "15kR") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/d86a5dda-66ea-4311-a7d2-5e2cf0558120"
       (reference "TH1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
