@@ -2043,7 +2043,7 @@
     (uuid c135870d-60e6-4ea5-9411-c5da3c5368a8)
     (property "Reference" "U9" (id 0) (at 108.585 95.25 0))
     (property "Value" "PIC18F26K83" (id 1) (at 108.585 97.79 0))
-    (property "Footprint" "GrandPapa:SOIC127P1030X265-28N" (id 2) (at 120.65 119.38 0)
+    (property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" (id 2) (at 120.65 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/40001943A.pdf" (id 3) (at 120.65 119.38 0)

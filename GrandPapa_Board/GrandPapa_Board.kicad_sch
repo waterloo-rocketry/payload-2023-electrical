@@ -1569,6 +1569,9 @@
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/8567d9a3-472c-4677-bd9c-79ba8d999b20"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
+    (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/fe05a526-136d-4cf2-9827-793ff06e3cc8"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/53ba3d92-1a41-4a88-9613-15e75aad5f25"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -1714,10 +1717,10 @@
       (reference "J11") (unit 1) (value "Dupont 01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/85196087-a1a1-4422-a69b-bfd593c299ae"
-      (reference "L1") (unit 1) (value "5.6uH") (footprint "")
+      (reference "L1") (unit 1) (value "5.6uH") (footprint "Inductor_SMD:L_Vishay_IHLP-2020")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/93a78a7f-2bf6-480c-bb3a-4eb2de250b27"
-      (reference "L2") (unit 1) (value "4.7uH") (footprint "")
+      (reference "L2") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Sumida_CDMC6D28_7.25x6.5mm")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/6de840b9-c366-479d-9fcf-8cc3aea8869b"
       (reference "R1") (unit 1) (value "20mR") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
@@ -1849,7 +1852,7 @@
       (reference "U8") (unit 1) (value "MCP2562-E/SN") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/c135870d-60e6-4ea5-9411-c5da3c5368a8"
-      (reference "U9") (unit 1) (value "PIC18F26K83") (footprint "GrandPapa:SOIC127P1030X265-28N")
+      (reference "U9") (unit 1) (value "PIC18F26K83") (footprint "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm")
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/9e1af1ea-26fe-408d-9bab-a7cba70931ca"
       (reference "U10") (unit 1) (value "MCP2515-I/P") (footprint "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm")
