@@ -1137,7 +1137,7 @@
     (property "Value" "Dupont 01x06_Female" (id 1) (at 247.65 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "PapaOld:PinHeader_2x03_P2.00mm_Vertical_MINISENSOR_Harwin_Spacing" (id 2) (at 247.015 33.02 0)
+    (property "Footprint" "PapaOld:connector_Harwin_M80-5000642" (id 2) (at 247.015 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 247.015 33.02 0)
@@ -1194,7 +1194,7 @@
     (property "Value" "Dupont 02x03_Female" (id 1) (at 248.92 78.7399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "PapaOld:PinHeader_2x03_P2.00mm_Vertical_MINISENSOR_Harwin_Spacing" (id 2) (at 247.015 76.2 0)
+    (property "Footprint" "PapaOld:connector_Harwin_M80-5000642" (id 2) (at 247.015 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 247.015 76.2 0)
@@ -1660,13 +1660,13 @@
       (reference "D8") (unit 1) (value "150120BS75000") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/c52fdc02-e0a8-4618-a9e4-68265e3d6d1e"
-      (reference "F1") (unit 1) (value "1.2A") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "F1") (unit 1) (value "1.5A") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/809480a9-88b8-4969-9c58-8122901dfc7f"
       (reference "F2") (unit 1) (value "1.2A") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/7d6337a6-d33d-4597-b113-21a9991d2059"
-      (reference "F3") (unit 1) (value "1.2A") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "F3") (unit 1) (value "1.5A") (footprint "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/0595b1c1-a330-42a2-a1cc-5d884417ccf0"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.5mm_Pad_Via")
@@ -1699,13 +1699,13 @@
       (reference "J2") (unit 1) (value "HARWIN_ROCKET") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
     (path "/bc115b77-66ba-4ad5-9769-e8d4d5e7e0d1"
-      (reference "J3") (unit 1) (value "Dupont 02x03_Female") (footprint "PapaOld:PinHeader_2x03_P2.00mm_Vertical_MINISENSOR_Harwin_Spacing")
+      (reference "J3") (unit 1) (value "Dupont 02x03_Female") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
     (path "/9148568f-147d-473b-b021-8ad960db1440"
       (reference "J4") (unit 1) (value "HARWIN_MINISENSOR") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
     (path "/a8426bc2-c0da-425a-9644-1cdd24d3376a"
-      (reference "J5") (unit 1) (value "Dupont 01x06_Female") (footprint "PapaOld:PinHeader_2x03_P2.00mm_Vertical_MINISENSOR_Harwin_Spacing")
+      (reference "J5") (unit 1) (value "Dupont 01x06_Female") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/9d46a4f7-4238-467d-b81e-da5f8cd8a079"
       (reference "J6") (unit 1) (value "Conn_02x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")

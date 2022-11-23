@@ -1642,7 +1642,7 @@
     (in_bom yes) (on_board yes)
     (uuid 7d6337a6-d33d-4597-b113-21a9991d2059)
     (property "Reference" "F3" (id 0) (at 191.77 104.14 0))
-    (property "Value" "1.2A" (id 1) (at 192.405 106.045 0))
+    (property "Value" "1.5A" (id 1) (at 192.405 106.045 0))
     (property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 186.69 99.695 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
