@@ -1821,9 +1821,6 @@
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/db615714-a70f-4a10-869b-4d8aaac28079"
       (reference "TP5") (unit 1) (value "TestPoint") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
-    (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/77ff2a04-f60f-44af-b4d3-68b4a9ffab74"
-      (reference "TP6") (unit 1) (value "TestPoint") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
-    )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/e82afff4-e0be-412e-83af-533b7def711c"
       (reference "TP7") (unit 1) (value "TestPoint") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
