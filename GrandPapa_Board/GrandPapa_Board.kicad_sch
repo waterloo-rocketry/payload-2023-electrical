@@ -1134,7 +1134,7 @@
     (property "Reference" "J5" (id 0) (at 247.65 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Dupont 01x06_Female" (id 1) (at 247.65 35.56 0)
+    (property "Value" "Dupont_Logger" (id 1) (at 247.65 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "PapaOld:connector_Harwin_M80-5000642" (id 2) (at 247.015 33.02 0)
@@ -1191,7 +1191,7 @@
     (property "Reference" "J3" (id 0) (at 248.92 76.1999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Dupont 02x03_Female" (id 1) (at 248.92 78.7399 0)
+    (property "Value" "Dupont_GPS" (id 1) (at 248.92 78.7399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "PapaOld:connector_Harwin_M80-5000642" (id 2) (at 247.015 76.2 0)
@@ -1699,13 +1699,13 @@
       (reference "J2") (unit 1) (value "HARWIN_ROCKET") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
     (path "/bc115b77-66ba-4ad5-9769-e8d4d5e7e0d1"
-      (reference "J3") (unit 1) (value "Dupont 02x03_Female") (footprint "PapaOld:connector_Harwin_M80-5000642")
+      (reference "J3") (unit 1) (value "Dupont_GPS") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
     (path "/9148568f-147d-473b-b021-8ad960db1440"
       (reference "J4") (unit 1) (value "HARWIN_MINISENSOR") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
     (path "/a8426bc2-c0da-425a-9644-1cdd24d3376a"
-      (reference "J5") (unit 1) (value "Dupont 01x06_Female") (footprint "PapaOld:connector_Harwin_M80-5000642")
+      (reference "J5") (unit 1) (value "Dupont_Logger") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/9d46a4f7-4238-467d-b81e-da5f8cd8a079"
       (reference "J6") (unit 1) (value "Conn_02x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
@@ -1817,9 +1817,6 @@
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/a2eed95e-d931-4f8c-9c3e-84e2c515c850"
       (reference "TP4") (unit 1) (value "TestPoint") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
-    )
-    (path "/9000e807-73a6-4445-a3d9-68a08e981f82/db615714-a70f-4a10-869b-4d8aaac28079"
-      (reference "TP5") (unit 1) (value "TestPoint") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/e82afff4-e0be-412e-83af-533b7def711c"
       (reference "TP7") (unit 1) (value "TestPoint") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
