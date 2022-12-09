@@ -787,6 +787,7 @@
     )
   )
 
+
   (junction (at 23.495 124.46) (diameter 0) (color 0 0 0 0)
     (uuid 05c4f9ff-626b-450f-ae37-0dc67a3b3d06)
   )
@@ -1402,7 +1403,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1fb3e0b1-0658-43f0-87db-0b5fb325a7cf)
   )
-  (hierarchical_label "CANL_ROCKET" (shape input) (at 256.5367 97.155 0)
+  (hierarchical_label "CANL_ROCKET" (shape input) (at 256.54 97.155 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3b6ee97f-2cf2-43f4-a6b5-10198954626f)
   )

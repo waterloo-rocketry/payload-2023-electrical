@@ -62,8 +62,8 @@
       35,
       36
     ],
-    "visible_layers": "0005024_80000001",
-    "zone_display_mode": 0
+    "visible_layers": "0005034_80000001",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "GrandPapa_Board.kicad_prl",
