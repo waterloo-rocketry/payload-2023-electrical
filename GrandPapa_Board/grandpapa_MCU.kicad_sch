@@ -787,7 +787,6 @@
     )
   )
 
-
   (junction (at 23.495 124.46) (diameter 0) (color 0 0 0 0)
     (uuid 05c4f9ff-626b-450f-ae37-0dc67a3b3d06)
   )
@@ -1848,7 +1847,7 @@
     (in_bom yes) (on_board yes)
     (uuid 9d46a4f7-4238-467d-b81e-da5f8cd8a079)
     (property "Reference" "J6" (id 0) (at 26.67 35.56 0))
-    (property "Value" "Conn_02x06" (id 1) (at 26.67 38.1 0))
+    (property "Value" "PROG Header" (id 1) (at 26.67 38.1 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 24.13 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )

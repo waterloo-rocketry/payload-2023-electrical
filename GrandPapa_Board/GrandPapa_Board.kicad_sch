@@ -418,7 +418,6 @@
     )
   )
 
-
   (junction (at 43.18 179.705) (diameter 0) (color 0 0 0 0)
     (uuid 0ab836f5-0ff6-49c4-ac00-c159775a4567)
   )
@@ -1709,7 +1708,7 @@
       (reference "J5") (unit 1) (value "Dupont_Logger") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/9d46a4f7-4238-467d-b81e-da5f8cd8a079"
-      (reference "J6") (unit 1) (value "Conn_02x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+      (reference "J6") (unit 1) (value "PROG Header") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/426d6114-d3b8-47a3-9389-3c2fec82ed9d"
       (reference "J7") (unit 1) (value "HARWIN_KALMAN") (footprint "PapaOld:connector_Harwin_M80-5000642")
@@ -1803,6 +1802,9 @@
     )
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/a4dbde3b-7159-4f1a-8883-300fc4fc0b48"
       (reference "R27") (unit 1) (value "15kR") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/9000e807-73a6-4445-a3d9-68a08e981f82/a5efc56c-442d-4096-9f38-cdf4a05f8459"
+      (reference "R28") (unit 1) (value "2.5kR") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/d86a5dda-66ea-4311-a7d2-5e2cf0558120"
       (reference "TH1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
