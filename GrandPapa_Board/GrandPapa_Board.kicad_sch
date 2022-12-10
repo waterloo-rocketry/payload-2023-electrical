@@ -1566,6 +1566,9 @@
     (path "/6da90ef0-c465-4ff3-9b37-6e85282e96ed/fe05a526-136d-4cf2-9827-793ff06e3cc8"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
+    (path "/9000e807-73a6-4445-a3d9-68a08e981f82/843cc801-7be9-4c4a-a23c-8560123679c5"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
     (path "/6e3b0b39-ae79-433b-961a-4cecb7d81a21/650f6504-e891-4404-a660-ac0fb77c96a7"
       (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
@@ -1713,6 +1716,9 @@
     (path "/426d6114-d3b8-47a3-9389-3c2fec82ed9d"
       (reference "J7") (unit 1) (value "HARWIN_KALMAN") (footprint "PapaOld:connector_Harwin_M80-5000642")
     )
+    (path "/9000e807-73a6-4445-a3d9-68a08e981f82/10f83aeb-be50-4522-b068-8248fbb3e346"
+      (reference "J8") (unit 1) (value "Therm EN Jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
     (path "/2746e30c-cf47-4b9c-9f99-0aa497348790"
       (reference "J11") (unit 1) (value "Dupont 01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
@@ -1805,6 +1811,9 @@
     )
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/a5efc56c-442d-4096-9f38-cdf4a05f8459"
       (reference "R28") (unit 1) (value "2.5kR") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/9000e807-73a6-4445-a3d9-68a08e981f82/8b23f69d-99ff-46ff-8d0c-09c7b735862e"
+      (reference "R29") (unit 1) (value "15kR") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/9000e807-73a6-4445-a3d9-68a08e981f82/d86a5dda-66ea-4311-a7d2-5e2cf0558120"
       (reference "TH1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
