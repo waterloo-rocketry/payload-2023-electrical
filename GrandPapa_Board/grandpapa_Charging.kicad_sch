@@ -1,0 +1,32 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 13de22ce-ac8e-48a1-9d93-d43cf519abc4)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (polyline (pts (xy 140.97 116.84) (xy 160.02 116.84))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 1cf38424-1fea-4e60-8ae1-27bbfe1f9506)
+  )
+  (polyline (pts (xy 160.02 116.84) (xy 160.02 86.36))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid a97dcebc-6f5b-40ae-99a4-94992e750319)
+  )
+  (polyline (pts (xy 160.02 86.36) (xy 140.97 86.36))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid dc9b89e0-8c78-4d78-932a-2ab16d9ff8e2)
+  )
+  (polyline (pts (xy 140.97 86.36) (xy 140.97 116.84))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid f4919149-5014-4a19-848f-0b61b16c0496)
+  )
+
+  (text "Charger IC\n**Magic**\n" (at 146.05 100.33 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9310c499-62f6-4ec7-b101-0476c02d3dfe)
+  )
+)
