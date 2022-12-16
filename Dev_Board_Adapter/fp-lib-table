@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Dev_Board_Adpater")(type "KiCad")(uri "${KIPRJMOD}/Dev_Board_Adpater.pretty")(options "")(descr ""))
+)
